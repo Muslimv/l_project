@@ -1,18 +1,10 @@
 from telegram.ext import Application, CommandHandler, MessageHandler, filters
+from handlers.commands import start
 from config import TOKEN
 from engine.game import GameSession
 from engine.learning import LearningMode
 
 
-async def start(update, context):
-    """Обработчик команды /start"""
-    await update.message.reply_text(
-        "🎮 Добро пожаловать в Акинатор-бота!\n"
-        "Я могу угадать любого персонажа по вашим ответам.\n\n"
-        "Доступные команды:\n"
-        "/play - Начать игру\n"
-        "/learn - Научить меня новому персонажу"
-    )
 
 def main():
     app = Application.builder().token(TOKEN).build()
