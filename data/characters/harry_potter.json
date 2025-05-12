@@ -1,0 +1,15 @@
+{
+  "name": "Гарри Поттер",
+  "tags": ["книга", "магия", "школа", "волшебник"],
+  "traits": {
+    "is_male": true,
+    "is_fictional": true,
+    "has_magic": true,
+    "from_book": true,
+    "wears_glasses": true,
+    "is_teenager": true,
+    "has_pet": true,
+    "is_movie_character": true
+  },
+  "image": "assets/harry.jpg"
+}
