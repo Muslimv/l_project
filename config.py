@@ -1,3 +1,4 @@
+# вся конфигурация бота
 import os
 from dotenv import load_dotenv
 
